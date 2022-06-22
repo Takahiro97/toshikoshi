@@ -128,6 +128,7 @@ header #logo-s {
 	color: #fff;		/*文字色*/
 	padding: 3%;		/*コンテンツ内の余白*/
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);	/*ボックスの影の設定。右へ、下へ、広げる幅、0,0,0は黒の事で0.5は50%色がついた状態の事。*/
+
 }
 /*リンクテキストの文字色*/
 #contents a {
@@ -641,4 +642,40 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 .sh {display:block;}
 .pc {display:none;}
 
+}
+
+
+.ippin {
+	height: 350px;
+}
+
+.gohan {
+	height: 150px;
+}
+
+.drink {
+	height: 200px;
+}
+
+.softdrink {
+	height: 130px;
+}
+.ippin li {
+	width : calc(100% / 3) ;
+	float: left;
+}
+
+.gohan li {
+	width : calc(100% / 3) ;
+	float: left;
+}
+
+.drink li {
+	width : calc(100% / 3) ;
+	float: left;
+}
+
+.softdrink li {
+	width : calc(100% / 3) ;
+	float: left;
 }
